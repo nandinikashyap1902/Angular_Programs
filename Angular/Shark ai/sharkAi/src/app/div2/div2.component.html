@@ -1,0 +1,77 @@
+<div id="home">
+    <mat-icon>home</mat-icon>
+</div>
+<div id="item">
+    <p>All Pending Anomalies</p>
+    <input type="text" placeholder="text" />
+    <span>
+        <mat-icon>search</mat-icon>
+    </span>
+    <mat-icon>sync</mat-icon>
+</div>
+
+<!--<div id="side">
+    <p>Items per page:</p>
+    <mat-icon>keyboard_arrow_down</mat-icon>
+    <p> 1-10 of 10</p>
+    <ul>
+    <li>
+
+        <mat-icon>keyboard_arrow_left</mat-icon>
+    </li>
+    <li>
+
+        <mat-icon>keyboard_arrow_right</mat-icon>
+    </li>
+    <li>
+
+        <mat-icon>first_page</mat-icon>
+    </li>
+    <li>
+
+        <mat-icon>last_page</mat-icon>
+    </li>
+    </ul>
+</div>-->
+
+<section>
+    <app-table></app-table>
+</section>
+<style>
+    #home {
+        width: 50px;
+        height: 1000px;
+        background-color: #414040;
+        border-right: 1px solid grey;
+        border-bottom: 1px solid grey;
+        margin-left: -4px;
+        margin-top: 9px;
+    }
+
+    #item {
+        position: absolute;
+        top: 50px;
+        left: 90px;
+    }
+
+    #item input {
+        width: 250px;
+        background: none;
+        border-style: none;
+        border-bottom: 1px solid grey;
+    }
+
+    #item p {
+        color: white;
+    }
+
+    #item mat-icon {
+        color: white;
+    }
+
+    #home mat-icon {
+        color: white;
+    }
+
+    
+</style>

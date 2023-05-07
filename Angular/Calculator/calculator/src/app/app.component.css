@@ -1,0 +1,25 @@
+#calc{
+    margin:auto;
+    width:400px;
+    height: 380px;
+    background-color: cadetblue;
+}
+#screen input{
+    width:99%;
+    height:80px;
+    border-style:none;
+}
+
+#btns button{
+    width:25%;
+    height: 50px;
+    border: 1px solid black;
+}
+#number button{
+    width:25%;
+    height: 50px;
+    border: 1px solid black;
+}
+#calc{
+    border: 2px solid black;
+}

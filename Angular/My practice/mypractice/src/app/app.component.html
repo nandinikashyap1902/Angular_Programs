@@ -1,0 +1,36 @@
+<!--<h1 [style.color]="count">nandini</h1>
+<button (click)="printvalue()">Click</button>
+<input type="text" #input/>
+<h1>{{value1}}</h1>
+<button (click)="displayprop(input.value)">display</button>
+<h1 *ngIf="condition; then ifblock else elseblock">
+  conditional
+  </h1>
+  <ng-template #ifblock>
+    <h1>hiii if block</h1>
+  </ng-template>
+  <ng-template #elseblock>
+    <h1>hiii else block</h1>
+  </ng-template>
+<div [ngSwitch]="condition">
+
+  <h1 *ngSwitchCase="'blue'"style="color:blue">
+  njnjnj
+  </h1>
+</div>
+<h1 *ngFor="let item of users">
+  <li>{{item}}</li>
+</h1>
+<form #formdata="ngForm" (ngSubmit)="submitInfo(formdata.value)">
+  <input type="text" ngModel name="name" placeholder="name"/>
+  <input type="text" ngModel name="email"placeholder="email"/>
+  <input type="text" ngModel name="pass"placeholder="name"/>
+  <button>submit</button>
+</form>
+
+<app-userdetails [user]="condition"></app-userdetails>
+<h1 *ngFor="let info of users">
+<app-userdetails [info1]="info"></app-userdetails>
+</h1>-->
+
+{{count| uppercase}}

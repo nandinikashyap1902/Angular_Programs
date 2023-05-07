@@ -1,0 +1,40 @@
+<!--<ul *ngFor="let user of userDetails">
+    <app-user-details [item]='user'></app-user-details> sending data parent to child
+</ul>
+
+<app-child (updateDataEvent)="updateData($event)"></app-child> 
+sending data child to parent
+
+<input type="text" [(ngModel)]="name"/>
+<h3>{{name}}</h3> two way binding(update and showing data at same time)
+<h1>{{64| dataSqrt: 78}}</h1>
+<form #loginForm="ngForm" (submit)="submitInfo(loginForm.value)">
+    <input type="text" name="name" ngModel/>
+    <input type="text" name="password" ngModel/>
+    <button>submit</button>
+</form> Template form
+<form [formGroup]="loginForm" (ngSubmit)="loginuser()">
+    <input type="text" name="name" formControlName="user"/>
+    <input type="text" name="password" formControlName="password"/>
+    <button>submit</button>
+</form>
+<h1 appRedCol>nandini</h1>
+<a routerLink="hom">hom</a>
+<br>
+<a routerLink="child">child</a><br>
+<a routerLink="user">user</a>
+dynamic routing
+<a routerLink="user">hom</a>
+<br>
+<a routerLink="hom/2">hom</a>
+<br>
+<a routerLink="hom/5">child</a><br>
+<a routerLink="hom/6">user</a>
+<router-outlet></router-outlet>
+<app-hom></app-hom>
+<a routerLink="user">user</a>
+<router-outlet></router-outlet>-->
+<h1 *ngFor="let info of usersdata"><!--services-->
+    <li>{{info.name}}</li>
+</h1>
+<app-about-us></app-about-us>

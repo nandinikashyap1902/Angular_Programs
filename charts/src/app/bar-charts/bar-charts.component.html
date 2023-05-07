@@ -1,0 +1,36 @@
+<h1 >Types of charts</h1>
+<style>
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+</style>
+<table>
+    <tr>
+        <td>
+            <h1>Vertical Chart</h1>
+           <ngx-charts-bar-vertical [results]="productSales"></ngx-charts-bar-vertical> 
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <h1>Horizontal chart</h1>
+           <ngx-charts-bar-horizontal [results]="productSales"></ngx-charts-bar-horizontal> 
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <h1>Stacked Chart</h1>
+           <ngx-charts-bar-vertical-stacked [results]="productSalesMulti"></ngx-charts-bar-vertical-stacked> 
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <h1>vertical-normalized Chart</h1>
+           <ngx-charts-bar-vertical-normalized [results]="productSalesMulti"></ngx-charts-bar-vertical-normalized> 
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,41 @@
+<div>
+    <ul id="first">
+        <li><mat-icon>list</mat-icon></li>
+        <li>Shark AI Command</li>
+    </ul>
+    <ul id="second">
+        <li>16-feb-2023</li>
+        <li>03:18:15 PM IST</li>
+        <li><mat-icon>account_circle</mat-icon></li>
+        <li><mat-icon matBadge="15" matBadgeColor="warn">notifications_none</mat-icon></li>
+        <li><mat-icon>logout</mat-icon></li>
+    </ul>
+</div>
+<style>
+  
+  div{
+     height:60px;
+    background-color: #b1b1bb;
+    display:flex;
+    margin:-8px;
+  }
+  #first{
+    display:flex;
+  }
+  #second{
+    display:flex;
+    float:right;
+  }
+  #first li{
+    list-style-type: none;
+    padding:10px;
+    position: relative;
+    left:-40px;
+  }
+  #second  li{
+    list-style-type: none;
+    padding:10px;
+    position: relative;
+    right:-190%;;
+  }
+</style>
